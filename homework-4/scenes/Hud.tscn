@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://eve3ij8wldi2"]
+
+[ext_resource type="Script" uid="uid://dvty2lmxbp34f" path="res://scripts/Hud.cs" id="1_wfueu"]
+
+[node name="Hud" type="CanvasLayer"]
+script = ExtResource("1_wfueu")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Hud"
